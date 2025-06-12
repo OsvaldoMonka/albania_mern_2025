@@ -5,6 +5,7 @@ const destinacionSchema = new mongoose.Schema({
   vendi: String,
   pershkrimi: String,
   saved: Boolean,
+  image: { type: String, required: false },
 });
 
 const destinacionetSchema = new mongoose.Schema({
